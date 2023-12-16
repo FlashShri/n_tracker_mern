@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.food-card {
+  min-height: 11.4rem;
+  min-width: 10rem;
+
+  border-radius: 6px;
+  background-color: #1f6e77;
+  border: 2px solid rgb(4, 7, 12);
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.food-card:hover {
+  background-color: #2e828c;
+}
+
+.food-nutrients p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.98rem;
+  gap: 0.15rem;
+  color: rgb(255, 255, 255);
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+
+  background-color: #1f2028;
+
+  flex: 1;
+}
+
+.food-name{
+  color : ghostwhite;
+}
